@@ -1,0 +1,22 @@
+cd Desktop/
+ls
+mkdir test
+cd test
+ls
+touch index.html styles.css commands.txt
+ls
+ls -la
+cp index.html index_2.html
+cd ..
+ls
+mkdir destination
+mv test/index_2.html destination/
+rm test/styles.css
+ls -la test
+ls -la destination/
+rm -rf destination/
+cd ..
+ls
+cd Desktop/test
+ls
+history 25 > commands.txt
