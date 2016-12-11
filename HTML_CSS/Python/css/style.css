@@ -25,7 +25,6 @@
     height: 50px;
     width: 250px;
     background-color: #444444;
-    /*float right;*/
     border-radius: 10px;
     box-shadow: 1px 1px 1px black;
 }
@@ -49,11 +48,6 @@
     height: 30px;
     box-shadow: 1px 1px 1px black;
 }
-/*.search-bar {
-    margin:0 auto;
-    float:right;
-    display:inline-block;
-}*/
 
 .logo {
     width: 300px;
@@ -65,7 +59,6 @@
         background-color: #4677AC;
         height: 40px;
         width: 860px;
-        /*padding: 10px;*/
         margin-left: 70px;
         border-radius: 5px;
         box-shadow: 1px 1px 1px black;
@@ -95,12 +88,13 @@
     .leftmenu ul {
         list-style-position: inside;
         list-style: none;
-        /*margin: 40px 0px 0px 80px;*/
         text-align: center;
     }
+
     .leftmenu ul li:before {
         content: "\00BB \0020";
     }
+
     .leftmenu a {
         color: white;
         font-size: .9em;
@@ -115,34 +109,80 @@
 }
 
 .body2 {
+    border-style: solid none none none;
     border-top-color: black;
-    border-top-width: medium;
     width: 970px;
+    background-color: white;
 }
 
 .body2_left {
     width: 400px;
     display: inline-block;
+    border-style: solid none none none;
     border-top-color: #6AA6D7;
-    border-top-width: medium;
     background-color: white;
     vertical-align: top;
-    margin-top: 10px;
+    margin: 10px 5px 10px 50px;
+    padding-top: 10px;
     text-align: center;
-    list-style-position: inside;
 }
+
+    .body2_left p {
+        width: 270px;
+        padding-left: 40px;
+    }
+
+    .body2_left ul {
+        list-style-type: square;
+        padding: 5px 90px;
+    }
 
 .body2_right {
     width: 400px;
     display: inline-block;
+    border-style: solid none none none;
     border-top-color: #6AA6D7;
-    border-top-width: medium;
     background-color: white;
     vertical-align: top;
-    margin-top: 10px;
+    margin: 10px 10px 10px 5px;
+    padding-top: 10px;
     text-align: center;
-    list-style-position: inside;
 }
+
+    .body2_right p {
+        width: 270px;
+        padding-left: 40px;
+    }
+
+    .body2_right ul {
+        list-style-type: square;
+        padding: 5px 90px;
+    }
+
+.footer {
+    height: 100px;
+    text-align: center;
+}
+
+    .footer ul {
+        list-style: none;
+        overflow: hidden;
+    }
+
+    .footer li {
+        float: left;
+        position: relative;
+    }
+
+    .footer li a {
+        text-decoration: none;
+        display:block;
+        text-align: center;
+        margin-left: 80px;
+        padding: 40px 20px 10px 20px;
+
+
+    }
 
 .micro{
     font-size: .4em;
@@ -164,8 +204,16 @@
     color: #D1B600;
 }
 
+.grey {
+    color: #71ADDC;
+}
+
+.link-blue {
+    color: #78AEDB;
+}
+
 .noline {
-    text-decoration: noline;
+    text-decoration: none;
 }
 
 .underline {
