@@ -1,0 +1,223 @@
+* {
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    /*border: 1px dotted green;*/
+}
+
+.wrapper {
+    width: 970px;
+    margin: 0 auto;
+}
+
+    .header img {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        left:5px;
+    }
+
+    .header h1 {
+        padding: 20px 0px 10px 100px;
+        font-size: 45px;
+        font-weight: bolder;
+    }
+
+    .header h2 {
+        padding: 10px;
+        background: linear-gradient(#1664A1,#4781AE,#1664A1);
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+    }
+
+.left_pane {
+    width: 200px;
+    padding: 5px;
+    display:inline-block;
+    vertical-align: top;
+    background: linear-gradient(to bottom, #E3E3E3 0%, white 5%);
+}
+
+    .left_pane h4,h5 {
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .left_pane p {
+        margin-top: 20px;
+    }
+.button {
+    display: block;
+	height: 30px;
+	line-height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1px;
+    font-size: 10px;
+    color: white;
+	text-decoration: none;
+	font-weight: bold;
+    margin-top: 2px;
+}
+
+.picture {
+    width: 200px;
+    height: 280px;
+    background-image: url('../images/ad_background.png');
+    text-align: center;
+    padding-top: 10px
+}
+
+    .picture img {
+        height: 125px;
+        width: auto;
+    }
+
+.radiant {
+    background: linear-gradient(to right, #6BE1EE 0%, white 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.body {
+    width: 700px;
+    display: inline-block;
+    background: linear-gradient(to bottom, #E3E3E3 0%, white 5%);
+}
+#home_pic {
+        height: 20px;
+        weight: 20px;
+        vertical-align: top;
+        }
+
+#phone_pic {
+    height: 40px;
+    width: auto;
+    margin-left: 435px;
+    margin-top: 10px;
+}
+
+#phone {
+    font-size: 50px;
+}
+
+    #container1 h1 {
+        font-size: 23px;
+    }
+
+    #container1 span {
+        vertical-align: top;
+    }
+
+    #container1 ul {
+        display:inline-block;
+        margin-bottom: 10px;
+        list-style: none;
+        text-decoration: none;
+        text-align: right;
+        color: #575757;
+        font-size: 10px;
+        }
+
+    #container2 p {
+        font-size: .9em;
+        padding-top: 5px;
+    }
+
+    #container2 ul li {
+        font-size: .9em;
+        list-style-position: inside;
+        padding: 5px;
+    }
+    #container2 ul li {
+        font-size: .9em;
+        list-style-position: outside;
+        padding: 5px;
+        margin-left: 3em;
+    }
+
+    #container2 ol li {
+        font-size: .9em;
+        text-align: left;
+        list-style-position: outside;
+        padding: 5px;
+        margin-left: 3em;
+    }
+
+    #container2 img {
+        height: 100px;
+        width: auto;
+        margin: 10px;
+    }
+
+#container3 {
+    height:120px;
+    border-style: solid solid none solid;
+    border-color: #007FE4;
+    border-width: medium;
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+    #html_pic {
+        height: 100px;
+        width: auto;
+        padding: 10px;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    #c3_content {
+        vertical-align: top;
+        display: inline-block;
+        height:120px;
+        width: 555px;
+    }
+
+    #c3_content p {
+        font-size: .9em;
+        padding-top: 5px;
+    }
+a {
+    text-decoration: none;
+    color: #00C4E2;
+}
+
+.white {
+    color: white;
+}
+
+.groverblue {
+    color: #1062A0;
+}
+
+.grover_bg {
+    background-color: #1062A0;
+    background: linear-gradient(to bottom, #78ABD0 0%, #1062A0 40%);
+}
+.orange_bg {
+    background-color: #FD7400;
+    background: linear-gradient(to bottom, #F2AB48 0%, #FD7400 40%);
+}
+
+.teal {
+    color: #00C4E2;
+}
+
+.teal_bg {
+    background-color: #00C4E2;
+    background: linear-gradient(to bottom, #4CD3E2 0%, #00C4E2 40%);
+}
+
+.centered {
+    text-align: center;
+}
+
+.bolder,h3,h4,h5,h6 {
+    font-weight: bold;
+    /*font-weight:500;*/
+}
